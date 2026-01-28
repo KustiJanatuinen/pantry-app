@@ -18,10 +18,11 @@ Basic recipe support (work in progress)
 
 Simple API structure designed for future expansion
 
+CRUD operations for pantry items via a FastAPI REST-style API
 
 **Tech Stack**
 
-Backend: Python
+Backend: Python, FastAPI
 
 Database: SQL (SQLite)
 
@@ -29,15 +30,64 @@ API: REST-style endpoints
 
 Tools: Git, virtual environment
 
-Project Status
+
+**Example API Endpoints**
+
+The backend exposes a small REST-style API for managing pantry items.
+
+### Health check
+
+```http
+GET /
+
+Response:
+
+{ "message": "Hello Pantry!" }
+
+List pantry items
+
+GET /pantry
+
+Add a pantry item
+
+POST /pantry
+Content-Type: application/json
+
+{
+  "name": "Milk",
+  "amount": 1,
+  "unit": "l"
+}
+
+Update a pantry item (replace fields)
+
+PUT /pantry/{item_id}
+Content-Type: application/json
+
+{
+  "name": "Milk",
+  "amount": 2,
+  "unit": "l"
+}
+
+Delete a pantry item
+
+DELETE /pantry/{item_id}
+```
+
+
+**Project Status**
 
 This project is under active development.
 Current focus is on solidifying core CRUD functionality before expanding into recipes and shopping list features.
 
+**Project Scope**
+
+This project was time-boxed to one week in order to practice scoping, prioritization, and finishing a usable application within a limited timeframe.
 
 **Future Improvements**
 
-User authentication
+Partial updates (PATCH) and more granular field updates
 
 Recipe-to-ingredient linking
 
