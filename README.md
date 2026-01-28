@@ -35,9 +35,13 @@ Tools: Git, virtual environment
 
 The backend exposes a small REST-style API for managing pantry items.
 
-### Health check
+
 
 ```http
+
+### Health check
+
+Returns a simple response to verify that the API is running.
 GET /
 
 Response:
