@@ -3,8 +3,13 @@
 A simple Python backend to track ingredients at home and practice building REST APIs. 
 
 ## Why I built this
-I wanted a hands-on project to practice data modeling and basic CRUD operations. To keep myself focused, I **time-boxed the initial build to one week** so I would focus on finishing a working application rather than getting lost in feature creep.
+This project started out of a personal need. I want to be the kind of engineer who builds their own tools when a need arises and a practical solution is within reach. 
 
+I used this app as a hands-on exercise to practice:
+* Backend application structure and maintainable code.
+* Database modeling and core CRUD operations.
+* **Scoping and prioritization:** I intentionally time-boxed the initial build to one week so I would focus on delivering a working core rather than getting lost in feature creep.
+  
 ## Tech Stack
 * **Language:** Python
 * **Framework:** FastAPI
@@ -86,16 +91,3 @@ Basic frontend interface
 
 Exploring price comparison using external data sources (where available)
 
-
-**Why This Project Exists**
-
-I came up with the idea on a personal need. I want to be the kind of engineer who builds their own tools when a need arises.
-This project was created as a hands-on exercise to practice:
-
-Finishing and iterating on an idea
-
-Backend application structure
-
-Database modeling
-
-Writing maintainable code
