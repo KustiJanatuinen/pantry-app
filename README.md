@@ -1,35 +1,20 @@
 # pantry-app
-A small personal project for managing pantry items and simple recipes, built to practice backend development and basic CRUD operations.
 
+A simple Python backend to track ingredients at home and practice building REST APIs. 
 
-**Overview**
+## Why I built this
+I wanted a hands-on project to practice data modeling and basic CRUD operations. To keep myself focused, I **time-boxed the initial build to one week** so I would focus on finishing a working application rather than getting lost in feature creep.
 
-The Pantry App helps keep track of ingredients stored at home and supports adding, editing, and removing items as they are used or restocked.
-The goal of the project is to practice building a simple, practical application with a clear data model and clean structure.
+## Tech Stack
+* **Language:** Python
+* **Framework:** FastAPI
+* **Database:** SQLite
+* **Tools:** Git, Virtual Environments (venv)
 
-
-**Features**
-
-Create, read, update, and delete pantry items
-
-Store item name, quantity, and unit
-
-Basic recipe support (work in progress)
-
-Simple API structure designed for future expansion
-
-CRUD operations for pantry items via a FastAPI REST-style API
-
-**Tech Stack**
-
-Backend: Python, FastAPI
-
-Database: SQL (SQLite)
-
-API: REST-style endpoints
-
-Tools: Git, virtual environment
-
+## What it does (Features)
+* Lets you Add, View, Update, and Delete (CRUD) pantry items.
+* Stores basic item data: name, quantity, and unit (e.g., "1 Litre of Milk").
+* Uses a simple, flat API structure so it's easy to expand later.
 
 **Example API Endpoints**
 
@@ -104,9 +89,10 @@ Exploring price comparison using external data sources (where available)
 
 **Why This Project Exists**
 
+I came up with the idea on a personal need. I want to be the kind of engineer who builds their own tools when a need arises.
 This project was created as a hands-on exercise to practice:
 
-Finishing and iterating on a real, usable idea
+Finishing and iterating on an idea
 
 Backend application structure
 
