@@ -3,7 +3,7 @@
 A simple Python backend to track ingredients at home and practice building REST APIs. 
 
 ## Why I built this
-This project started out of a personal need. I want to be the kind of engineer who builds their own tools when a need arises and a practical solution is within reach. 
+This project started out of a personal need. I want to be the kind of person who builds their own tools when a need arises and a practical solution is within reach. 
 
 I used this app as a hands-on exercise to practice:
 * Backend application structure and maintainable code.
